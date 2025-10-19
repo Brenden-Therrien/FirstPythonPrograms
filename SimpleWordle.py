@@ -9,7 +9,7 @@ word_length = len(letters_in_word)
 
 # print word as '_'s
 display = ['_'] * word_length
-print(f"letter has {word_length} letters", display)
+print(f"Word has {word_length} letters", display)
 
 result = ""
 
@@ -35,5 +35,5 @@ while trys > 0 and won == False:
         won = True
         if won == True:
             print("You won!")
-        else:
-            print("Out of tries")
+    elif trys == 0:
+        print("Out of tries")
