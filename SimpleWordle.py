@@ -48,7 +48,7 @@ while tries > 0 and won == False:
     result = ""
     if guess == word:
         won = True
-        if won == True:
+        if won:
             print("You won!")
     elif tries == 0:
         print("Out of tries")
