@@ -1,3 +1,5 @@
+# password generator, with password length
+
 import random as rand
 import string
 

@@ -9,7 +9,7 @@ if answer.lower() == 'y':
 elif answer.lower() == 'n':
     customMsg = "Countdown over."
 
-length = int(input("Please enter the length of the countdown: "))
+length = int(input("Please enter the length of the countdown: ")) # gets countdown length
 
 while length > 0:
     print(length) # pretty self explanatory

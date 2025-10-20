@@ -1,3 +1,4 @@
+# Guess a number between 1 and 100
 import random as rand
 
 print("welcome to the guessing game!")

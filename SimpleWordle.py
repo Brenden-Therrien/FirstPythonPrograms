@@ -24,6 +24,7 @@ while tries > 0 and won == False:
     results = ['' for _ in word]
     letters_in_word = list(word)
 
+    # the following is advanced but I understand whats going on so thats good
     for i in range(len(letters_in_guess)):
         if letters_in_guess[i] == letters_in_word[i]:
             results[i] = f'\033[92m{letters_in_guess[i]}\033[0m'

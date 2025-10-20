@@ -20,4 +20,4 @@ elif (op == '/'):
         print(num1 / num2)
 # Check if non of the valid operators were chosen
 else:
-    print("Not a valid operator, try again.")
+    print("Not a valid operator, please try again.")

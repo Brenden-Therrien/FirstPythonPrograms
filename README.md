@@ -15,3 +15,5 @@ PasswordGenerator.py -> asks user for passwords length, then gives a password
 Simplecalculator.py -> calculator that handles ('+', '-', '*', '/', division by 0)
 
 SimpleWordle.py -> ***hardest project yet*** Only 1 word but gives colors, and there is a try limit
+
+NotesApp.py -> Creates a file that allows you to add a note, read from file, and delete it

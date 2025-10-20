@@ -19,7 +19,7 @@ while True:
     # Write notes
     elif result == '1':
         with open(f"new.txt", "a") as f:
-            timestamp = f.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M" + '\n')) # Date, time
+            timestamp = f.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M" + '\n')) # Date, and time
             content = f.write(input() + '\n')
 
 
